@@ -1,0 +1,19 @@
+{
+  "name": "faucet",
+  "version": "1.0.0",
+  "description": "A simple dapp that implements a rudimentary ether faucet for the sepolia testnet",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ukush/EtherTestFaucet"
+  },
+  "author": "Uwais Kushi-Mohammed",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.5"
+  }
+}
