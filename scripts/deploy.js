@@ -2,14 +2,12 @@ const hre = require("hardhat");
 
 async function main() {
 
-  const [deployer] = await hre.ethers.getSigners();
+    const [deployer] = await hre.ethers.getSigners();
 
-  console.log("Deploying faucet contract with account", deployer.address);
+    console.log("Deploying faucet contract with account", deployer.address);
 
 
- const faucet = await hre.ethers.deployContract("Faucet");
-
-  //await faucet.deployed();
+  const faucet = await hre.ethers.deployContract("Faucet");
 
   console.log("Faucet deployed!\nAddress: ", await faucet.getAddress());
 }
